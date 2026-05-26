@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Earthquake Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Earthquake Prediction System</h1>
+
+    <form action="/predict" method="post">
+
+        <input type="text" name="latitude" placeholder="Latitude" required>
+
+        <input type="text" name="longitude" placeholder="Longitude" required>
+
+        <input type="text" name="depth" placeholder="Depth" required>
+
+        <select name="region">
+
+            <option>Maharashtra</option>
+            <option>Delhi</option>
+            <option>Tamil Nadu</option>
+            <option>West Bengal</option>
+            <option>Rajasthan</option>
+            <option>Goa</option>
+            <option>Telangana</option>
+
+        </select>
+
+        <input type="number" name="tremors"
+        placeholder="Previous Tremors" required>
+
+        <select name="soil">
+
+            <option>Rocky</option>
+            <option>Sandy</option>
+            <option>Clay</option>
+
+        </select>
+
+        <button type="submit">Predict</button>
+
+    </form>
+
+    <h2>{{ prediction_text }}</h2>
+
+</div>
+
+</body>
+</html>
