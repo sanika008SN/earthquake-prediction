@@ -1,0 +1,9 @@
+Latitude,Longitude,Depth,Region,Previous_Tremors,Soil_Type,Risk
+18.52,73.85,15,Maharashtra,3,Rocky,High
+19.07,72.87,10,Maharashtra,1,Sandy,Medium
+28.61,77.20,25,Delhi,5,Clay,High
+13.08,80.27,8,Tamil Nadu,0,Rocky,Low
+22.57,88.36,12,West Bengal,2,Clay,Medium
+26.91,75.78,18,Rajasthan,4,Sandy,High
+15.49,73.82,5,Goa,1,Rocky,Low
+17.38,78.48,20,Telangana,3,Clay,Medium
